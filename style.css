@@ -1,7 +1,9 @@
 *{
    /* border: solid 1px;     */
 }
-body{
+
+html,body{
+    width: 100%;
 }
 .h-100vh{
     height: 100vh;
@@ -42,6 +44,7 @@ body{
 /* all-style */
 
 .header-style{
+    display: block;
     background: linear-gradient(180deg, #7EB8FF 0%, rgba(126, 184, 255, 0) 51.04%);   
      height: 100%;
     width: 100%;
@@ -156,11 +159,9 @@ width: 100%;
 }
 .nav-item{
     color: #000;
-    /* width: 100px; */
+    width: 100px;
     height: 29px;
-    font-family: Poppins;
-    font-family: 'Noto Sans', sans-serif;
-   
+    font-family: Overlock SC;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -204,33 +205,10 @@ width: 100%;
 
 
 
-/* nu-green */
 
-
-
-/* top nav */
-.top-bar{
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    background: rgba(255,255,255,0.5);
-    border-bottom:solid 1px #E5E5E5 ;
-}
-.logo{
-    position: fixed;
-    height: 7%;
-    padding: 10px;
-
-}
-.top-nav-bar{
-    padding: 10px;
-    text-align: center;
-}
 
 /* Introduction */
-#introduction{
- 
-}
+
 .intr-p{
     width: 450px;
     margin: auto;
